@@ -1,0 +1,29 @@
+PASS PowerShell data quoting
+PASS reject archive path ../outside.txt
+PASS reject archive path /absolute.txt
+PASS reject archive path C:/absolute.txt
+PASS reject archive path foo\bar
+PASS reject archive path a/../b
+PASS reject archive path a//b
+PASS reject archive path a./b
+PASS reject archive path x:stream
+PASS reject archive path a /b
+PASS Unicode archive path remains inside target
+PASS reject drive root
+PASS reject Windows directory
+PASS reject network install
+PASS validate every ZIP path before any extraction
+PASS invalid ZIP leaves no partial good file
+PASS reject case-insensitive duplicate entries
+PASS never overwrite an existing file
+PASS existing file byte content preserved
+PASS extraction records per-file SHA-256
+PASS Unicode extraction preserves contents
+PASS uninstall preserves externally changed installed file
+PASS uninstall removes unchanged owned file and preserves foreign file
+PASS uninstall removes only empty owned subdirectory
+PASS state can be verified against embedded payload
+PASS tampered manifest cannot designate an unrelated file for removal
+PASS only public certificate embedded
+PASS signing certificate is not a certificate authority
+Passed 28 installer checks. No registry or trust changes made.

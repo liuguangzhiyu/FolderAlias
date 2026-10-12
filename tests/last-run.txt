@@ -1,0 +1,32 @@
+﻿  SHELL=剪贴板工具（EcoPaste）😀
+PASS new folder / Unicode / original path / restore
+PASS preserve icon, comments, other sections; byte exact restore
+PASS repeat apply keeps first baseline
+PASS reapply after restore creates a new baseline
+PASS external configuration edit blocks apply and restore
+PASS external attributes change blocks restore
+PASS missing backup never deletes another application's config
+PASS UTF-8 BOM and UTF-16 BE existing configs
+PASS insertion respects sections and missing final newline
+PASS ambiguous encoding and malformed config rejected without backup
+PASS unsafe aliases rejected
+PASS network, root, relative and stream paths rejected
+PASS hardlinked desktop.ini rejected
+PASS MOTW or named stream is not removed
+PASS foreign backup folder is not overwritten
+PASS corrupt backup refused
+PASS copied backup cannot restore another folder
+PASS rollback after fault: after-journal
+PASS process crash recovery: after-journal
+PASS rollback after fault: after-file-write
+PASS process crash recovery: after-file-write
+PASS rollback after fault: after-folder-attributes
+PASS process crash recovery: after-folder-attributes
+PASS rollback after fault: before-commit
+PASS process crash recovery: before-commit
+PASS pending recovery protects third-party changes
+PASS existing read-only config survives failed update
+PASS locked config rejected without modifying original
+PASS batch continues after per-folder conflict
+PASS menu command quoted without invoking a command shell
+RESULT: 30 passed, 0 failed
