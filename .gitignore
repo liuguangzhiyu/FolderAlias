@@ -1,0 +1,25 @@
+# Signing secrets must never be committed. The public .cer is intentionally included.
+*.pfx
+*.p12
+*.key
+*.pem
+*.dpapi.xml
+private-signing/
+PrivateKey/
+.env
+.env.*
+
+# Local build tools, output and test fixtures
+.vs/
+bin/
+obj/
+work/
+TestResults/
+*.user
+*.suo
+*.pdb
+*.exe
+*.dll
+*.zip
+!releases/**/FolderAlias-Setup-*.exe
+!releases/**/FolderAlias-*-source.zip

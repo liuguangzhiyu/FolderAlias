@@ -1,0 +1,13 @@
+* text=auto
+*.cs text
+*.c text
+*.ps1 text
+*.md text
+*.txt text
+*.xml text
+*.exe binary
+*.dll binary
+*.zip binary
+*.cer binary
+*.png binary
+*.ico binary
