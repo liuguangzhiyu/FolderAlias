@@ -2,7 +2,9 @@
 
 给文件夹设置中文显示名，保留实际英文目录名、路径和软件文件。支持批量设置、Unicode、原配置备份、一键还原、冲突检测和原生刷新。
 
-**直接下载：** [Windows 11 x64 安装 EXE](releases/v1.2.0/FolderAlias-Setup-1.2.0-x64.exe?raw=true) · [完整源码 ZIP](releases/v1.2.0/FolderAlias-1.2.0-source.zip?raw=true) · [SHA-256 校验](releases/v1.2.0/SHA256SUMS.txt) · [实测范围](TEST-REPORT.md)
+**直接下载：** [Windows 11 x64 安装 EXE](https://github.com/liuguangzhiyu/FolderAlias/releases/download/v1.2.0/FolderAlias-Setup-1.2.0-x64.exe) · [完整源码 ZIP](https://github.com/liuguangzhiyu/FolderAlias/releases/download/v1.2.0/FolderAlias-1.2.0-source.zip) · [SHA-256 校验](https://github.com/liuguangzhiyu/FolderAlias/releases/download/v1.2.0/SHA256SUMS.txt) · [实测范围](TEST-REPORT.md)
+
+也可打开 [1.2.0 版本下载页](https://github.com/liuguangzhiyu/FolderAlias/releases/tag/v1.2.0)，在附件（Assets）中选择 `FolderAlias-Setup-1.2.0-x64.exe`。只想使用工具时，无需下载源码。
 
 本仓库同时保留源码与 1.2.0 安装产物，便于备份和下载。源码使用 MIT 许可证；签名私钥、账户凭据、开发工具与测试临时目录不在仓库中。
 
